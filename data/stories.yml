@@ -1,0 +1,49 @@
+version: "3.1"
+
+stories:
+
+- story: Greet and Ask Python Question
+  steps:
+  - intent: greet
+  - action: utter_greet
+  
+- story: End Conversation
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Explore Variables and Data Types
+  steps:
+  - intent: greet
+  - intent: variables_data_types
+  - action: utter_variables_data_types
+
+- story: Understanding Operators
+  steps:
+  - intent: greet
+  - intent: operators
+  - action: utter_operators
+
+- story: Mastering Conditional Statements
+  steps:
+  - intent: greet
+  - intent: conditional_statements
+  - action: utter_conditional_statements
+
+- story: Delve into Loops
+  steps:
+  - intent: greet
+  - intent: loops
+  - action: utter_loops
+
+- story: Uncover Functions
+  steps:
+  - intent: greet
+  - intent: functions
+  - action: utter_functions
+
+- story: Navigate Modules and Packages
+  steps:
+  - intent: greet
+  - intent: modules_packages
+  - action: utter_modules_packages

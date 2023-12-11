@@ -1,0 +1,45 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - variables_data_types
+  - operators
+  - conditional_statements
+  - loops
+  - functions
+  - modules_packages
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_variables_data_types:
+  - text: "In Python, variables are used to store data, and data types define the type of data that a variable can store. Common data types include integers, floats, strings, and booleans."
+
+  utter_operators:
+  - text: "Python supports various operators, including arithmetic operators (+, -, *, /), comparison operators (==, !=, <, >), and logical operators (and, or, not)."
+
+  utter_conditional_statements:
+  - text: "Conditional statements, such as 'if', 'elif', and 'else', are used to control the flow of a program based on certain conditions."
+
+  utter_loops:
+  - text: "Loops, like 'for' and 'while', allow you to iterate over a sequence of elements or execute a block of code repeatedly."
+
+  utter_functions:
+  - text: "Functions are blocks of reusable code. They can take parameters, perform a task, and return a value. Functions help in organizing and modularizing code."
+
+  utter_modules_packages:
+  - text: "Modules in Python are files containing Python code. Packages are collections of modules. You can import modules and packages to use their functionalities in your code."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,75 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: variables_data_types
+  examples: |
+    - What are variables in Python?
+    - Explain Python data types.
+    - How do I declare a variable?
+    - List Python data types.
+
+- intent: operators
+  examples: |
+    - What are Python arithmetic operators?
+    - Explain comparison operators in Python.
+    - How do logical operators work in Python?
+
+- intent: conditional_statements
+  examples: |
+    - How does the 'if' statement work in Python?
+    - Explain 'elif' in Python.
+    - What is the purpose of the 'else' statement?
+
+- intent: loops
+  examples: |
+    - Explain 'for' loops in Python.
+    - How does the 'while' loop work?
+    - Give examples of using loops in Python.
+
+- intent: functions
+  examples: |
+    - What is a function in Python?
+    - How to define a function?
+    - Explain parameters and return values in functions.
+
+- intent: modules_packages
+  examples: |
+    - What are Python modules?
+    - Explain the concept of Python packages.
+    - How to import modules in Python?
